@@ -37,7 +37,7 @@ function App() {
 
 	const checkMonoValue = (e) => {
 		if (e === '') {
-			monoValueChange('&monochrome=909090');
+			monoValueChange('909090');
 		} else {
 			monoValueChange('');
 		}
